@@ -160,16 +160,35 @@
     
     main .product {
     width: calc(33.33% - 2rem);
-    border:1px solid #000;
     margin: 1rem;
     background-color: #ffffff;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.03);
     text-align: center;
     }
     
-    main .product .imgproductf {
-      border: 1px solid blue;
-
+    article .imgproduct .harness {
+      min-height: 200px;
+      background-image: url(/assets/harness1.jpg);
+      background-position:center;
+    background-repeat:no-repeat;
+    background-size:contain;
+    border: 1px solid blue;
+    }
+    article .imgproduct .toy {
+      min-height: 200px;
+      background-image: url(/assets/toy1.png);
+      background-position:center;
+    background-repeat:no-repeat;
+    background-size:contain;
+    border: 1px solid blue;
+    }
+    article .imgproduct .food {
+      min-height: 200px;
+      background-image: url(/assets/food1.jpg);
+      background-position:center;
+    background-repeat:no-repeat;
+    background-size:contain;
+    border: 1px solid blue;
     }
     
     main .product h3 {
