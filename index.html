@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <title>Pet Shop</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <div><div class="img">
+          <img src="assets/paw.png" alt="" srcset="">
+        </div>
+
+            <h1>Bimbo's Shop</h1>
+        </div>
+      <nav>
+        <ul>
+          <li><a href="#">Harness</a></li>
+          <li><a href="#">Toys</a></li>
+          <li><a href="#">Food</a></li>
+          <li><a href="#">Medicine</a></li>
+        </ul>
+      </nav>
+      <div id="cart-icon" onclick="showCart()">
+        <span class="material-symbols-outlined" style="color:white">
+          shopping_cart
+          </span>      </div>
+      <div id="cart">
+        <h3>Cart</h3>
+        <ul id="cart-items"></ul>
+        <div id="cart-total"></div>
+        <button id="checkout-btn" disabled>Checkout</button>
+      </div>
+    </header>
+    <main>
+      <h2>Featured Products</h2>
+      <section class="products">
+
+        <article class="product">
+            <div class="stock-level"></div>
+            <div class="imgproducth">
+            </div>
+            <h3>Strong Harness</h3>
+            <p class="product-price">$500</p>
+            <button class="add-to-cart-btn" data-name="harness1" data-price="500">Add to Cart</button>
+        </article>
+
+        <article class="product">
+            <div class="stock-level"></div>
+            <div class="imgproductt">
+            </div>
+            <h3>Best Toys</h3>
+            <p class="product-price">$300</p>
+            <button class="add-to-cart-btn" data-name="toy1" data-price="300">Add to Cart</button>
+        </article>
+
+        <article class="product">
+            <div class="stock-level"></div>
+            <div class="imgproductf">
+            </div>
+
+            <h3>Food</h3>
+            <p class="product-price">$200</p>
+            <input type="submit" class="add-to-cart-btn" data-name="food1" data-price="200" value="Add to Cart">
+        </article>
+      </section>
+    </main>
+    <footer>Copyright © Bimbo's Shop</footer>
+    <script src="app.js"></script>
+  </body>
+  
+</html>
